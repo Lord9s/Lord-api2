@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Language Translator</title>
+</head>
+<body>
+<h1>Language Translator</h1>
+<label for="input-text">Enter text to translate:</label><br>
+<textarea id="input-text" rows="4" cols="50"></textarea><br>
+<button onclick="translateText()">Translate</button><br>
+Translated Text: <span id="translated-text"></span>
+
+<script>
+function translateText() {
+    const inputText = document.getElementById('input-text').value;
+    // Code to translate text using translation API
+    // You can use Google Translate API or any other translation API here
+    // Display translated text in span with id 'translated-text'
+}
+</script>
+
+</body>
+</html>
